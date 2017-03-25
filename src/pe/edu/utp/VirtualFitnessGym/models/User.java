@@ -5,15 +5,16 @@ package pe.edu.utp.VirtualFitnessGym.models;
  */
 public class User {
 
-    private  Skills skills;
-    private  int id;
+    private Skills skills;
+    private int id;
     private String surname;
-    private  String name;
-    private  String sex;
-    private String rol;
+    private String name;
+    private String sex;
     private String phone;
+    private String rol;
 
-    public User(){
+
+    public User() {
 
     }
 
