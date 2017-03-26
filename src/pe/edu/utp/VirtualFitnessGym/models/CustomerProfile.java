@@ -1,6 +1,5 @@
 package pe.edu.utp.VirtualFitnessGym.models;
 
-import java.text.DecimalFormat;
 import java.util.Date;
 
 /**
@@ -9,7 +8,7 @@ import java.util.Date;
 public class CustomerProfile {
     private User user;
     private int id;
-    private Date dateEntry;
+    private String dateEntry;
     private int age;
     private double weight;
     private double size;
@@ -27,14 +26,6 @@ public class CustomerProfile {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public Date getDateEntry() {
-        return dateEntry;
-    }
-
-    public void setDateEntry(Date dateEntry) {
-        this.dateEntry = dateEntry;
     }
 
     public int getAge() {
@@ -67,5 +58,9 @@ public class CustomerProfile {
 
     public void setDoughBodily(double doughBodily) {
         this.doughBodily = doughBodily;
+    }
+
+    public void setDateEntry(String dateEntry) {
+        this.dateEntry = dateEntry;
     }
 }
