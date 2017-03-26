@@ -5,26 +5,28 @@ package pe.edu.utp.VirtualFitnessGym.models;
  */
 public class User {
 
-    private Skills skills;
+
     private int id;
     private String surname;
     private String name;
     private String sex;
     private String phone;
     private String rol;
+    private String skills;
 
+    public User(int user_id, String surnames, String names, String sex, int phone, String rol, int skill_id) {
+    }
 
     public User() {
 
     }
 
-    public Skills getSkills() {
+
+    public String getSkills() {
         return skills;
     }
 
-    public void setSkills(Skills skills) {
-        this.skills = skills;
-    }
+    public void setSkills(String skills) {this.skills = skills;   }
 
     public int getId() {
         return id;
@@ -73,4 +75,6 @@ public class User {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+
 }
