@@ -46,7 +46,7 @@ public class UsersEntity extends  BaseEntity {
     }
 
     public List<User> findAll() {
-        String sql = "select * from users";
+        String sql = "select * from gym.users;";
         List<User> users = new ArrayList<>();
         try {
             ResultSet resultSet = getConnection().createStatement().executeQuery(sql);

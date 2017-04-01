@@ -14,7 +14,13 @@
 <body>
 
 <s:iterator value="users">
-    <s:property value="name"/>
+    <s:property value="id"/><br>
+    <s:property value="surname"/><br>
+    <s:property value="name"/><br>
+    <s:property value="sex"/><br>
+    <s:property value="phone"/><br>
+    <s:property value="rol"/><br>
+    <s:property value="skills"/><br>
 </s:iterator>
 </body>
 </html>

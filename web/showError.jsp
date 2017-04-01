@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: GUILLERMO
-  Date: 22/03/2017
-  Time: 12:10 AM
+  Date: 25/03/2017
+  Time: 12:23 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-
+<h1>Error when requesting information.</h1>
 </body>
 </html>

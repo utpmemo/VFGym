@@ -10,23 +10,24 @@ public class User {
     private String surname;
     private String name;
     private String sex;
-    private String phone;
+    private int phone;
     private String rol;
-    private String skills;
+    private int skills;
 
-    public User(int user_id, String surnames, String names, String sex, int phone, String rol, int skill_id) {
+    public User(int id, String surname, String name, String sex, int phone, String rol, int skills) {
+        this.id = id;
+        this.surname = surname;
+        this.name = name;
+        this.sex = sex;
+        this.phone = phone;
+        this.rol = rol;
+        this.skills = skills;
     }
 
     public User() {
 
     }
 
-
-    public String getSkills() {
-        return skills;
-    }
-
-    public void setSkills(String skills) {this.skills = skills;   }
 
     public int getId() {
         return id;
@@ -60,6 +61,14 @@ public class User {
         this.sex = sex;
     }
 
+    public int getPhone() {
+        return phone;
+    }
+
+    public void setPhone(int phone) {
+        this.phone = phone;
+    }
+
     public String getRol() {
         return rol;
     }
@@ -68,13 +77,11 @@ public class User {
         this.rol = rol;
     }
 
-    public String getPhone() {
-        return phone;
+    public int getSkills() {
+        return skills;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setSkills(int skills) {
+        this.skills = skills;
     }
-
-
 }

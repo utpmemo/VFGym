@@ -27,9 +27,10 @@ public class GymService {
         return (userName.equalsIgnoreCase("admin") &&
                 password.equalsIgnoreCase("password"));
     }
-    public boolean Registrar_Usuario(String surnames, String name,String sex, String phone, String rol , String skill) {
+    public boolean Registrar_Usuario(int id,String surnames, String name,String sex, int phone, String rol , int skill) {
 
         User   user = new User() ;
+        user.setId(id);
         user.setSurname(surnames);
         user.setName(name);
         user.setSex(sex);

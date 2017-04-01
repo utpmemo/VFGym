@@ -76,11 +76,11 @@ public class UserAction {
         return "error";
     }
 
-    public String registro() {
+    /*public String registro() {
         GymService service = new GymService();
         return service.Registrar_Usuario(getSurname(),getName(),getSex(),getPhone(),getRol(),getSkills()) ?
                 "success" : "error";
-    }
+    }*/
 
     public List<User> getUsers() { return users;}
 
